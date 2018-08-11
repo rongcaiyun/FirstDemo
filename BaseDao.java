@@ -1,11 +1,11 @@
-package cn.myschool.dao;
+﻿package cn.myschool.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
+//注释
 public class BaseDao {
 	Connection conn;
 	PreparedStatement pstmt;
